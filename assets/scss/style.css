@@ -1,0 +1,379 @@
+nav .logo img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+nav .lists ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .lists ul li {
+  list-style: none;
+  list-style-type: none;
+}
+
+nav .lists ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+nav .lists ul li:hover a {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  color: purple;
+}
+
+nav .lists ul li button {
+  background-color: inherit;
+  border: none;
+}
+
+nav .lists ul li button svg {
+  background-color: #f4ccf4;
+  border-radius: 50%;
+  padding: 8px;
+  width: 50px;
+  height: 50px;
+}
+
+header {
+  background-color: #e4dae2;
+}
+
+header .headphoto img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 500px;
+}
+
+header .headtext {
+  padding: 40px 20px;
+}
+
+header .headtext h1 {
+  color: purple;
+}
+
+header .headtext p {
+  color: #858585;
+}
+
+header .headtext button {
+  border: none;
+  padding: 12px;
+  background-color: purple;
+  color: white;
+  border-radius: 20px;
+}
+
+#isotop {
+  padding: 24px 0px;
+}
+
+#isotop .isotop-item {
+  overflow: hidden;
+  position: relative;
+}
+
+#isotop .isotop-item img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#isotop .isotop-item .stars ul {
+  cursor: pointer;
+  padding: 12px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#isotop .isotop-item .stars ul li {
+  list-style: none;
+  margin: 0px 2px;
+}
+
+#isotop .isotop-item .stars ul li p {
+  margin: 0;
+  color: gray;
+}
+
+#isotop .isotop-item .stars svg {
+  color: goldenrod;
+}
+
+#isotop .isotop-item p {
+  margin: 4px 0px;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+#isotop .isotop-item p:hover {
+  color: red;
+}
+
+#isotop .isotop-item p span {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#isotop .isotop-item .hover-item {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#isotop .isotop-item .hover-item img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#isotop .isotop-item .icons-hover {
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
+  position: absolute;
+  right: 10px;
+  top: 35%;
+  opacity: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#isotop .isotop-item .icons-hover ul {
+  padding: 0;
+}
+
+#isotop .isotop-item .icons-hover ul li {
+  list-style: none;
+  cursor: pointer;
+  margin: 5px 0px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#isotop .isotop-item .icons-hover ul li svg {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#isotop .isotop-item .icons-hover ul li:hover {
+  background-color: plum;
+  color: white;
+}
+
+#isotop .isotop-item:hover .hover-item {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#isotop .isotop-item:hover .icons-hover {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  opacity: 1;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#isotop .isotop-item .search-icon .search-item {
+  position: absolute;
+  top: 0;
+  -webkit-transform: translate(-50px, -50px);
+          transform: translate(-50px, -50px);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#isotop .isotop-item:hover .search-icon .search-item {
+  -webkit-transform: translate(-12px, -12px);
+          transform: translate(-12px, -12px);
+}
+
+#slider {
+  background-color: #f6c6f6;
+  padding: 8px;
+}
+
+#slider .swiper {
+  width: 100%;
+  height: 300px;
+}
+
+#slider .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#slider .swiper-slide img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
+#slider .slidertext h2 {
+  color: purple;
+}
+
+#slider .slidertext p {
+  color: gray;
+}
+
+#slider .slidertext button {
+  border: none;
+  padding: 12px;
+  background-color: purple;
+  color: white;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: #e4dae2;
+}
+
+footer .foot-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .foot-ul ul {
+  padding: 0;
+}
+
+footer .foot-ul ul li {
+  list-style: none;
+  color: gray;
+}
+
+footer .foot-ul p {
+  color: gray;
+}
+
+#loginnn {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 610px;
+  background-position: center;
+}
+
+#loginnn h1 {
+  text-align: center;
+  padding: 20px;
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(27%, #ff72de), to(#00d4ff));
+  background: linear-gradient(90deg, #020024 0%, #ff72de 27%, #00d4ff 100%);
+}
+
+#loginnn form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+#loginnn form label {
+  color: gray;
+}
+
+#loginnn form input {
+  border: none;
+  width: 50%;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+#loginnn .singup {
+  text-align: center;
+  margin-top: 16px;
+}
+
+#loginnn .singup p {
+  color: purple;
+}
+
+#loginnn .singup button {
+  border-radius: 20px;
+  width: 50%;
+  padding: 12px;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
